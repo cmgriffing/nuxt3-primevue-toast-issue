@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "3.0.0-27491748.3186841"
+  },
+  "dependencies": {
+    "primevue": "^3.12.5"
+  }
+}
