@@ -12,7 +12,7 @@ const config: NuxtConfig = {
 };
 
 // prod only
-if (process.env.NOW_REGION) {
+if (process.env.AWS_REGION) {
   config.nitro = {
     preset: "vercel",
   };
